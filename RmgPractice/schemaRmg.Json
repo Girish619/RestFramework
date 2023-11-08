@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "createdBy": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "teamSize": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "createdBy",
+    "projectName",
+    "status",
+    "teamSize"
+  ]
+}
